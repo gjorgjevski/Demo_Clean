@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo_Clean.Application", "Demo_Clean.Application", "{E59DD1CE-EDB6-45EA-B436-B3DA47B3AF11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo_Clean.Domain", "Demo_Clean.Domain", "{5CDDD72B-EA03-4364-8BDF-8921717E4D52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo_Clean.Infra.Data", "Demo_Clean.Infra.Data", "{67751D69-F2B7-41EA-8A33-4384DC0A233D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo_Clean.Presentation", "Demo_Clean.Presentation", "{9870256C-7011-4174-A559-9FE992315669}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
