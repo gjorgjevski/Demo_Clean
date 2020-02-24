@@ -1,9 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-Presentation-2ED9AD49-677E-45B3-A570-6115DCE0F0DF</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20191227090138_InitialMigration.cs" />
+    <Compile Remove="Data\Migrations\20191227090138_InitialMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191227091412_InitialMigration.cs" />
+    <Compile Remove="Data\Migrations\20191227091412_InitialMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20191227095427_InitialMigration.cs" />
+    <Compile Remove="Data\Migrations\20191227095427_InitialMigration.Designer.cs" />
+    <Compile Remove="Data\Migrations\20200102101526_InitialMigration.cs" />
+    <Compile Remove="Data\Migrations\20200102101526_InitialMigration.Designer.cs" />
+  </ItemGroup>
 
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+  </ItemGroup>
 
 </Project>
